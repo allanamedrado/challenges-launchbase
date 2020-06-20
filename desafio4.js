@@ -12,7 +12,7 @@ function createTransaction({type, value}){
     } else if (type == "debit") {
        user.balance -= value
     } else {
-        console.log ("Type of transactions don't is valid")
+        console.log ("The transaction type isn't valid")
     }
 }
 
