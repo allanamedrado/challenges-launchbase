@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+    {% block head %}
+        <title>Sobre</title>
+    {% endblock %}
+
+
+{% block content %}
+
+    <main>
+        <div id="wrapper">
+            <img src="{{about.avatar}}" alt="Foto de {{about.name}}">
+            
+        </div>
+
+        <div class="content">
+            <h1>{{about.name}}</h1>
+            <h2>{{about.role}}</h1>
+            <p>{{about.skills}}</p>
+        </div>
+        
+    </main>
+
+{% endblock %}
